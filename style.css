@@ -648,13 +648,13 @@ body {
 }
 
 #projects .full-col .projects-container .projects-box .grid-cell.gradie {
-  background: url("Gradie_Thumb.png");
+  background: url("Gradie_Thumb.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #projects .full-col .projects-container .projects-box .grid-cell.weather-app {
-  background: url("Weather_Thumb.png");
+  background: url("Weather_Thumb.jpg");
   background-size: cover;
   background-position: center;
 }
