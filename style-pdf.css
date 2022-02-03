@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1280px;
+    height: 720px;
+    background: grey;
+    color: white;
+    font-family: "Ubuntu";
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    background-image: linear-gradient(199deg, transparent 0%, transparent 5%,rgba(149, 149, 149,0.04) 5%, rgba(149, 149, 149,0.04) 38%,transparent 38%, transparent 100%),linear-gradient(414deg, transparent 0%, transparent 31%,rgba(149, 149, 149,0.04) 31%, rgba(149, 149, 149,0.04) 99%,transparent 99%, transparent 100%),linear-gradient(349deg, transparent 0%, transparent 11%,rgba(149, 149, 149,0.04) 11%, rgba(149, 149, 149,0.04) 57%,transparent 57%, transparent 100%),linear-gradient(311deg, transparent 0%, transparent 5%,rgba(149, 149, 149,0.04) 5%, rgba(149, 149, 149,0.04) 37%,transparent 37%, transparent 100%),linear-gradient(180deg, rgb(17,17,17),rgb(17,17,17));
+}
+
+.main .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5rem;
+}
+
+.left {
+    width: 60%;
+    height: 100%;
+}
+.right {
+    width: 40%;
+    height: 100%;
+}
+
+.left {
+    flex-direction: column;
+}
+
+.name {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.desc {
+    font-size: 1.5rem;
+    color: grey;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.desc span {
+    color: orangered;
+}
+
+.btn {
+    flex-direction: column;
+}
+
+.link {
+    margin-top: 2.5rem;
+    font-size: 1.25rem;
+    flex-direction: column;
+}
+
+.link a {
+    width: 15rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background: orangered;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px black;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 5px black;
+}
+
+.contact {
+    margin-top: 2rem;
+    flex-direction: column;
+}
+
+.contact h2 {
+    margin-bottom: 1rem;
+    text-decoration: underline orangered;
+}
+
+.contact p {
+    margin: 0.25rem;
+    font-size: 1.25rem;
+}
+
+.right img {
+    height: 100%;
+    filter: contrast(120%) saturate(90%) brightness(120%);
+}
+
+.bot {
+    width: 100%;
+    height: 20%;
+    background: black;
+    justify-content: space-evenly;
+}
+
+.bot img {
+    height: 50%;
+}

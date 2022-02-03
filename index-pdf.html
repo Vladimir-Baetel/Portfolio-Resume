@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+    <!-- <link rel="stylesheet" href="style-pdf.css"> -->
+</head>
+<body>
+    <div class="main flex">
+        <img class="logo" src="https://vladimir-baetel.com/nav_logo.png" alt="">
+        <div class="left flex">
+            <div class="name flex">
+                <h1>Vladimir Băețel</h1>
+            </div>
+            <div class="desc flex">
+                <p>Self taught <span>Frontend Developer</span> with a keen eye for detail, passionate about UI/UX design and pixel-perfect websites.</p>
+            </div>
+            <div class="btn flex">
+                <div class="link flex">
+                    <p>Check out my</p>
+                    <a href="http://bit.ly/vladimir-baetel" class="flex"> Portfolio Website</a>
+                </div>
+                <div class="contact flex">
+                    <h2>Ready to get in touch?</h2>
+                    <p>Phone: +40 739 727 097</p>
+                    <p>Email: vladimir.baetel@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="right flex">
+            <img src="https://vladimir-baetel.com/hero_headshot.png" alt="">
+        </div>
+    </div>
+    <div class="bot flex">
+        <img src="https://vladimir-baetel.com/HTML_icon_clear.png" alt="">
+        <img src="https://vladimir-baetel.com/CSS_icon_clear.png" alt="">
+        <img src="https://vladimir-baetel.com/JS_icon_clear.png" alt="">
+        <img src="https://vladimir-baetel.com/SASS_icon_clear.png" alt="">
+        <img src="https://vladimir-baetel.com/BOOTSTRAP_icon_clear.png" alt="">
+        <img src="https://vladimir-baetel.com/JQUERY_icon_clear.png" alt="">
+    </div>
+</body>
+
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1280px;
+    height: 720px;
+    background: grey;
+    color: white;
+    font-family: "Ubuntu";
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    background-image: linear-gradient(199deg, transparent 0%, transparent 5%,rgba(149, 149, 149,0.04) 5%, rgba(149, 149, 149,0.04) 38%,transparent 38%, transparent 100%),linear-gradient(414deg, transparent 0%, transparent 31%,rgba(149, 149, 149,0.04) 31%, rgba(149, 149, 149,0.04) 99%,transparent 99%, transparent 100%),linear-gradient(349deg, transparent 0%, transparent 11%,rgba(149, 149, 149,0.04) 11%, rgba(149, 149, 149,0.04) 57%,transparent 57%, transparent 100%),linear-gradient(311deg, transparent 0%, transparent 5%,rgba(149, 149, 149,0.04) 5%, rgba(149, 149, 149,0.04) 37%,transparent 37%, transparent 100%),linear-gradient(180deg, rgb(17,17,17),rgb(17,17,17));
+}
+
+.main .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5rem;
+}
+
+.left {
+    width: 60%;
+    height: 100%;
+}
+.right {
+    width: 40%;
+    height: 100%;
+}
+
+.left {
+    flex-direction: column;
+}
+
+.name {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.desc {
+    font-size: 1.5rem;
+    color: grey;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.desc span {
+    color: orangered;
+}
+
+.btn {
+    flex-direction: column;
+}
+
+.link {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    flex-direction: column;
+}
+
+.link a {
+    width: 15rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background: orangered;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px black;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 5px black;
+}
+
+.contact {
+    margin-top: 1.5rem;
+    flex-direction: column;
+}
+
+.contact h2 {
+    margin-bottom: 1rem;
+    text-decoration: underline orangered;
+    font-style: italic;
+}
+
+.contact p {
+    margin: 0.25rem;
+    font-size: 1.25rem;
+}
+
+.right img {
+    height: 100%;
+    filter: contrast(120%) saturate(90%) brightness(120%);
+}
+
+.bot {
+    width: 100%;
+    height: 20%;
+    background: black;
+    justify-content: space-evenly;
+}
+
+.bot img {
+    height: 50%;
+}
+</style>
+
+</html>
